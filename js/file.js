@@ -33,7 +33,16 @@ $(document).ready(function () {
         $('.darkMood').css({
             color:$(this).css('color'),
         
-             })     
+             })    
+            $('#topIcon').css({
+                
+                color:$(this).css('color')
+            })
+            $('.kamal').css({
+                
+                color:$(this).css('color')
+            })
+
        $('header').css({
         background:$(this).css('background'),
     
@@ -102,7 +111,7 @@ $(document).ready(function () {
             $(topIcon).css('display','none')
         }
 
-        if(x > 70){
+        if(x > 0){
             $('nav').css('background','white')
             
         }

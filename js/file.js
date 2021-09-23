@@ -20,8 +20,8 @@ $(document).ready(function () {
         color:'black'
     })
     li.eq(2).css({
-        background:'#ff5363',
-        color:'#ff5363'
+        background:'rgb(111 28 36)',
+        color:'rgb(111 28 36)'
     })
     li.eq(3).css({
         background:'#666',
@@ -268,3 +268,7 @@ jQuery("#responsive_headline").fitText(.8,{
     maxFontSize:'40px',
 });
 
+
+
+
+  
